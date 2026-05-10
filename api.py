@@ -37,7 +37,7 @@ app = FastAPI(title="RepoBot API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allow all origins for dev
+    allow_origins=["https://github-explainer-sigma.vercel.app/"], # Allow all origins for dev
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
